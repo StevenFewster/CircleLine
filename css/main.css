@@ -1,0 +1,95 @@
+.nav-wrapper.affix {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.m-navbar {
+	border: 0;
+}
+.m-top-section {
+	background-color: #ffcb05;
+}
+.m-jumbotron {
+	background-color: #ffcb05;
+}
+.m-navbar, .nav-wrapper {	
+    background-color: #333;
+	color: #ffcb05;
+}
+.m-navbar .navbar-nav > li > a,
+.m-navbar .navbar-nav > li.active > a,
+.m-navbar .navbar-nav > li.active > a:hover,
+.m-navbar .navbar-nav > li > a:hover {
+	color: #ffcb05;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+	color: #ffcb05;
+}
+.active {
+	]color: #ffcb05;
+}
+.line {
+	color: #fff;
+}
+.line-bakerloo {
+	background-color: #333;
+}
+.line-district {
+	background: none repeat scroll 0 0 #007229;
+}
+.line-hammersmithandcity {
+	background: none repeat scroll 0 0 #E899A8;
+}
+.line-northern {
+	background: none repeat scroll 0 0 #000000;
+}
+.line-overground {
+	background: none repeat scroll 0 0 #F86C00;
+}
+.line-bakerloo {
+	background: none repeat scroll 0 0 #AE6118;
+}
+.line-central {
+	background: none repeat scroll 0 0 #E41F1F;
+}
+.line-circle {
+	background: none repeat scroll 0 0 #F8D42D;
+	color: #113B92;
+}
+.line-dlr {
+	background: none repeat scroll 0 0 #00BBB4;
+}
+.line-jubilee {
+	background: none repeat scroll 0 0 #686E72;
+}
+.line-metropolitan {
+	background: none repeat scroll 0 0 #893267;
+}
+.line-picadilly {
+	background: none repeat scroll 0 0 #0450A1;
+}
+.line-victoria {
+	background: none repeat scroll 0 0 #009FE0;
+}
+.line-waterlooandcity {
+	background: none repeat scroll 0 0 #70C3CE;
+	color: #113B92;
+}
+
+.container ul {
+	border-left: solid 5px #FFFF00;
+}
+section:before {
+    background: none repeat scroll 0 0 #FFFF00;
+    border: 3px solid #808080;
+    border-radius: 14px;
+    content: "";
+    display: block;
+    height: 14px;
+    left: -28px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+}
